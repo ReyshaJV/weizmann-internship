@@ -1,1 +1,1 @@
-# Electric field at a particular point in space
+# Introducing Disorder in the atomic array 
