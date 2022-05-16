@@ -1,1 +1,1 @@
-# weizmann-internship
+# Multile arrays of atoms
