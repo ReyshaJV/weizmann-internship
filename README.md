@@ -9,11 +9,17 @@ The other branches contain pieces of blocks that were first coded and then put t
 
 This branch contains 3 notebooks:
 1. Cooperative_Shift_in_2D_array: contains the main code or class of gaussian ray and atomic array. This file demonstrates the scattering of light from 2d array. It contains plots for cooperative Shift of resonance frequency from the natural frequency of atoms ($\Delta/\gamma$) and $\Gamma/\gamma$ vs the lattice spacing $a$.It also contains plot for Transmissivity (found by simulation) as a function of $a$.
+It uses the csv file 'CoopShift_401', hence that must be stored in the same directory as this notebook. 
 
 2. Disorder_in_2D_array: contains code for plotting average transmissivity observed for a given number of trails vs standard deviation of disorder (dislocation of atoms in the array, such that they remain in the plane) 
 
 3. Missing_atoms: Contains code for plotting average transmissivity observed for a given numbe rof trials vs the probability of an atom being missing from the array
-
 Further comments are provided in the notebooks.
+
+The csv file 'CoopShift_401' is the data of $\Delta/\gamma$ and $\Gamma/\gamma$ values for lattice spacings ranging from 0 to 2*wavelength, in steps of 2*wavelength/201
+
+wavelength used throughout= 500nm
+c=3*$10^8$ m/s (speed of light)
+
 
 
